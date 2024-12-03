@@ -1,0 +1,103 @@
+/// VsCode theme settings
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "files.autoSave": "afterDelay",
+    "dart.warnWhenEditingFilesOutsideWorkspace": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true,
+        "suppressLineUncommittedWarning": true
+    },
+    "editor.fontSize": 14.5,
+    "dart.openDevTools": "flutter",
+    "dartImport.fixOnSave": true,
+    "dart_data_class_generator.hashCode.enabled": false,
+    "dart_data_class_generator.useEquatable": true,
+    "autoimport.showNotifications": true,
+    "dart.debugExternalLibraries": false,
+    "dart.debugSdkLibraries": false,
+    "workbench.editor.enablePreview": false,
+    "terminal.integrated.tabs.enabled": true,
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "explorer.confirmDragAndDrop": false,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "redhat.telemetry.enabled": true,
+    "dart.warnWhenEditingFilesInPubCache": false,
+    "security.workspace.trust.untrustedFiles": "newWindow",
+    "githubPullRequests.terminalLinksHandler": "github",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "dart_data_class_generator.json.key_format": "snake_case",
+    "dart_data_class_generator.toJson.enabled": false,
+    "dart_data_class_generator.fromJson.enabled": false,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "kotlin.languageServer.enabled": false,
+    "kotlin.debugAdapter.enabled": false,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "git.openRepositoryInParentFolders": "never",
+    "editor.guides.bracketPairs": true,
+    "debug.console.fontSize": 13,
+    "dart.debugExternalPackageLibraries": false,
+    "cSpell.language": "en,en-US",
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "window.titleBarStyle": "custom",
+    "editor.minimap.showSlider": "always",
+    "editor.minimap.enabled": false,
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "githubPullRequests.pullBranch": "never",
+    "dart.showDebuggerNumbersAsHex": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastColorTheme": "Default Dark+",
+    "workbench.preferredHighContrastLightColorTheme": "Default Dark+",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "markdown.extension.print.theme": "dark",
+    "vscode_vibrancy.opacity": -1,
+    "workbench.colorTheme": "Default Dark+",
+    "vscode_vibrancy.refreshInterval": 5000,
+    "github.copilot.editor.enableAutoCompletions": true,
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    /// See configuration options at:
+    /// https://code.visualstudio.com/api/references/theme-color
+    "workbench.colorCustomizations": {
+        "terminal.background": "#00000000",
+        "list.activeSelectionBackground": "#e285a7",
+        "list.inactiveSelectionBackground": "#e285a7",
+        "tab.activeBorder": "#e285a7",
+        "button.background": "#e285a7",
+        "button.border": "#e285a7",
+        "dropdown.background": "#e285a7",
+        //"scrollbar.shadow": "#e285a7",
+        //"scrollbarSlider.background": "#e285a7"
+        "badge.background": "#e285a7",
+        "progressBar.background": "#e285a7",
+    },
+    "workbench.settings.applyToAllProfiles": [
+        "workbench.colorCustomizations"
+    ],
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+}
