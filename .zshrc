@@ -19,4 +19,8 @@ export PATH=$GOPATH/bin:$PATH
 ## Completion scripts setup. Remove the following line to uninstall
 [[ -f /Users/mducc1412/.dart-cli-completion/zsh-config.zsh ]] && . /Users/mducc1412/.dart-cli-completion/zsh-config.zsh || true
 ## [/Completion]
+export PATH=/Users/mducc1412/.meteor:$PATH
 
+export NVM_DIR="$HOME/.nvm"
+[ -s "$(brew --prefix nvm)/nvm.sh" ] && . "$(brew --prefix nvm)/nvm.sh"
+[ -s "$(brew --prefix nvm)/etc/bash_completion.d/nvm" ] && . "$(brew --prefix nvm)/etc/bash_completion.d/nvm"export PATH=/Users/mducc1412/.meteor:$PATH
